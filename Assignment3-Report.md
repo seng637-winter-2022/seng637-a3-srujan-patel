@@ -91,7 +91,11 @@ We used IntelliJ for using JaCoCo coverage tool to extract coverage information 
 
 ![JaCoCo Analysis](images/range.png)
 
-![JaCoCo Analysis](images/data.png)
+Jacoco analysis for the Range class before writing the test suits
+
+![JaCoCo Analysis](images/data.jpeg)
+
+Jacoco analysis for the datautilities class before writing the test suits
 
 Comparision of different Coverage Metrics:- 
 
