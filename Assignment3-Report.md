@@ -20,23 +20,23 @@ Because of the see-through box concept, the term "Whitebox" was coined. The name
 
 The following are examples of white box testing techniques:
 
-•	Statement Coverage — This technique uses a small number of tests to apply all programming statements.
-•	Branch Coverage — In this method, all branches are tested by executing a series of tests on them.
-•	Path Coverage — This technique is used to test all pathways, including statements and branches.
-•	Decision Coverage
-•	Condition Coverage
-•	Multiple Condition Coverage
-•	Finite State Machine Coverage
-•	Control flow testing
-•	Data flow testing
+-	Statement Coverage — This technique uses a small number of tests to apply all programming statements.
+-	Branch Coverage — In this method, all branches are tested by executing a series of tests on them.
+-	Path Coverage — This technique is used to test all pathways, including statements and branches.
+-	Decision Coverage
+-	Condition Coverage
+-	Multiple Condition Coverage
+-	Finite State Machine Coverage
+-	Control flow testing
+-	Data flow testing
 
 What do you verify in White Box Testing?
-•	Internal flaws in security
-•	Paths in the coding process that are broken or poorly structured
-•	The path taken by specified inputs through the programme.
-•	Expected results
-•	Conditional loops are useful in a variety of situations.
-•	Individualized testing of each statement, object, and function
+-	Internal flaws in security
+-	Paths in the coding process that are broken or poorly structured
+-	The path taken by specified inputs through the programme.
+-	Expected results
+-	Conditional loops are useful in a variety of situations.
+-	Individualized testing of each statement, object, and function
 
 Software development might include testing at the system, integration, and unit levels. One of the primary aims of Whitebox testing is to ensure that an application's operating flow is correct. It entails comparing a set of predetermined inputs to expected or desired outputs, with the goal of identifying bugs when one of the inputs fails to provide the expected outcome.
 White box testing is a difficult task. The application being tested has a lot to do with the difficulty involved. White box testing a small application that performs a single simple task can take minutes, whereas larger programming programmes might take days, weeks, or even months to completely test.
@@ -44,18 +44,18 @@ Software testing should be performed on a software application when it is being 
 
 Advantages of White Box Testing:
 
-•	Code optimization through the detection of hidden defects.
-•	Cases for white box tests are simple to automate.
-•	Because all code paths are usually covered, testing is more thorough.
-•	Even if a GUI is not accessible, testing can begin early in the SDLC.
+-	Code optimization through the detection of hidden defects.
+-	Cases for white box tests are simple to automate.
+-	Because all code paths are usually covered, testing is more thorough.
+-	Even if a GUI is not accessible, testing can begin early in the SDLC.
 
 Disadvantages of White Box Testing:
 
-•	White box testing can be time-consuming and costly.
-•	It irritates developers who are used to running white box test scenarios.
-•	Developers' lack of detail in white box testing can lead to production problems.
-•	Professional resources with a thorough understanding of programming and implementation are required for white box testing.
-•	White-box testing takes time, and larger programming applications require more time to thoroughly test.
+-	White box testing can be time-consuming and costly.
+-	It irritates developers who are used to running white box test scenarios.
+-	Developers' lack of detail in white box testing can lead to production problems.
+-	Professional resources with a thorough understanding of programming and implementation are required for white box testing.
+-	White-box testing takes time, and larger programming applications require more time to thoroughly test.
 
 Key Difference:
 
@@ -68,10 +68,11 @@ When comparing Black box testing to White box testing, Black box testing takes l
 
 
 # 2 Manual data-flow coverage calculations for X and Y methods
-![Calulation1](img1.png)
-![Calculation2](img2.png)
-![Calculation3](img3.png)
-![Calculation4](img4.png)
+
+![Calulation1](images\img1.png)
+![Calculation2](images\img2.png)
+![Calculation3](images\img3.png)
+![Calculation4](images\img4.png)
 # 3 A detailed description of the testing strategy for the new unit test
 
 Text…
@@ -88,7 +89,7 @@ Text…
 
 We used IntelliJ for using JaCoCo coverage tool to extract coverage information as shown below. After we set it up, we saw it provides instructions, branch, line, and method coverage. The cons for JaCoCo is that it lacks statement coverage and MC DC coverage. We then switched to Eclipse IDE and used EclEmma plugin for coverage. This tool gives you branch, instructions, line and method coverage. Both tools are similar and lacking condition coverage, so we decided to go ahead with EclEmma because it was the recommended tool.
 
-![JaCoCo Analysis](range.png)
+![JaCoCo Analysis](images\range.png)
 
 Comparision of different Coverage Metrics:- 
 
