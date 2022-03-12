@@ -2,7 +2,7 @@
 
 **Lab. Report #3 – Code Coverage, Adequacy Criteria and Test Case Correlation**
 
-| Group \#:           |     |
+| Group \#:           |G08  |
 | --------------      | --- |
 |Mit Patel            |30141193     |
 |Dishantkumar Patel   |30136223     |
@@ -85,7 +85,35 @@ Text…
 
 # 6 Pros and Cons of coverage tools used and Metrics you report
 
-Text…
+We used IntelliJ for using JaCoCo coverage tool to extract coverage information as shown below. After we set it up, we saw it provides instructions, branch, line, and method coverage. The cons for JaCoCo is that it lacks statement coverage and MC DC coverage. We then switched to Eclipse IDE and used EclEmma plugin for coverage. This tool gives you branch, instructions, line and method coverage. Both tools are similar and lacking condition coverage, so we decided to go ahead with EclEmma because it was the recommended tool.
+
+Comparision of different Coverage Metrics:- 
+
+Pros of statement coverage:
+
+- It detects the statements that have been already covered. So you can easily detect if new test cases are necessary.
+- It ensures if all the statements perform their task that they should ideally be performing by checking each line of the code.
+
+Cons of statement coverage:
+
+- There is no information about conditions. So, you can not sure what terms are covered.
+
+Pros of branch coverage:
+
+- This metric helps you to make sure you've iterated through every node of the tree with your test cases.
+- It helps you to measure which decision outcomes have been tested (and which have not).
+
+Cons of branch coverage:
+
+- It is a bit complex compared to other coverage metrics. 
+
+Pros of method/function coverage:
+
+- Gives you an abstract view about how many methods have you covered with your test cases
+
+Cons of method/funnctions coverage:
+
+- There is no information about conditions. So, you can not sure what terms are covered.
 
 # 7 A comparison on the advantages and disadvantages of requirements-based test generation and coverage-based test generation.
 |     Parameter                   |     Black Box Testing                                                                                                                                   |     White Box Testing                                                                                       |
