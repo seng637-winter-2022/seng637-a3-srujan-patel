@@ -68,10 +68,10 @@ When comparing Black box testing to White box testing, Black box testing takes l
 
 
 # 2 Manual data-flow coverage calculations for X and Y methods
-![](img1.png)
-![](img2.png)
-![](img3.png)
-![](img4.png)
+![Calulation1](img1.png)
+![Calculation2](img2.png)
+![Calculation3](img3.png)
+![Calculation4](img4.png)
 # 3 A detailed description of the testing strategy for the new unit test
 
 Text…
