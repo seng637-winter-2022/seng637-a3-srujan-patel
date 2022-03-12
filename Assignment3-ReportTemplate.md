@@ -7,7 +7,7 @@
 |Mit Patel            |30141193     |
 |Dishantkumar Patel   |30136223     |
 |Srujan Patel         |30130554     |
-|Jairath Chopra       |             |
+|Jairath Chopra       |30124136     |
 
 (Note that some labs require individual reports while others require one report
 for each group. Please see each lab document for details.)
