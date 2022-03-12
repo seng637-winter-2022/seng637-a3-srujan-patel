@@ -91,6 +91,8 @@ We used IntelliJ for using JaCoCo coverage tool to extract coverage information 
 
 ![JaCoCo Analysis](images/range.png)
 
+![JaCoCo Analysis](images/data.png)
+
 Comparision of different Coverage Metrics:- 
 
 Pros of statement coverage:
