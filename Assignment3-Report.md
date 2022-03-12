@@ -69,10 +69,10 @@ When comparing Black box testing to White box testing, Black box testing takes l
 
 # 2 Manual data-flow coverage calculations for X and Y methods
 
-![Calulation1](images\img1.png)
-![Calculation2](images\img2.png)
-![Calculation3](images\img3.png)
-![Calculation4](images\img4.png)
+![Calulation1](images/img1.png)
+![Calculation2](images/img2.png)
+![Calculation3](images/img3.png)
+![Calculation4](images/img4.png)
 # 3 A detailed description of the testing strategy for the new unit test
 
 Text…
@@ -89,7 +89,7 @@ Text…
 
 We used IntelliJ for using JaCoCo coverage tool to extract coverage information as shown below. After we set it up, we saw it provides instructions, branch, line, and method coverage. The cons for JaCoCo is that it lacks statement coverage and MC DC coverage. We then switched to Eclipse IDE and used EclEmma plugin for coverage. This tool gives you branch, instructions, line and method coverage. Both tools are similar and lacking condition coverage, so we decided to go ahead with EclEmma because it was the recommended tool.
 
-![JaCoCo Analysis](images\range.png)
+![JaCoCo Analysis](images/range.png)
 
 Comparision of different Coverage Metrics:- 
 
