@@ -87,7 +87,9 @@ Text…
 
 We used IntelliJ for using JaCoCo coverage tool to extract coverage information as shown below. After we set it up, we saw it provides instructions, branch, line, and method coverage. The cons for JaCoCo is that it lacks statement coverage and MC DC coverage. We then switched to Eclipse IDE and used EclEmma plugin for coverage. This tool gives you branch, instructions, line and method coverage. Both tools are similar and lacking condition coverage, so we decided to go ahead with EclEmma because it was the recommended tool.
 
-![JaCoCo Analysis](Range.png)
+<img src="Range.png"
+     alt="JaCoCo Analysis"
+     style="float: center; margin-right: 10px;" />
 
 Comparision of different Coverage Metrics:- 
 
