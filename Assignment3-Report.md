@@ -92,32 +92,32 @@ DU Coverage = 11/11 = 100%
 The first two figures show the coverage stats in Jacoco for the two classes before writing tests using white box testing:
 
 Data Utilities Class
-![DataUtilities](images/dubef.png)
+![DataUtilities](images/dubef.jpeg)
 
 
 Range Class
-![Calculation4](images/rangebef.png)
+![Calculation4](images/rangebef.jpeg)
 
 
 The following figure shows code coverage stats for each tested class after completing the tests. Unfortunately, our coverage tool(s) do not perform conditional coverage,
 
 DataUtilities Class
 
-![Calculation4](images/db.png)
+![Calculation4](images/db.jpeg)
 
 ![Calculation4](images/di.png)
 
-![Calculation4](images/dl.png)
+![Calculation4](images/dl.jpeg)
 
-![Calculation4](images/dm.png)
+![Calculation4](images/dm.jpeg)
 
 Range Class
 
-![Calculation4](ri/di.png)
+![Calculation4](images/ri.jpeg)
 
-![Calculation4](rl/dl.png)
+![Calculation4](images/rl.jpeg)
 
-![Calculation4](rm/dm.png)
+![Calculation4](images/rm.jpeg)
 
 # 6 Pros and Cons of coverage tools used and Metrics you report
 
