@@ -70,20 +70,54 @@ When comparing Black box testing to White box testing, Black box testing takes l
 # 2 Manual data-flow coverage calculations for X and Y methods
 
 ![Calulation1](images/img1.png)
+
 ![Calculation2](images/img2.png)
+
+DU Coverage = 12/12 = 100%
+
 ![Calculation3](images/img3.png)
 ![Calculation4](images/img4.png)
+
+DU Coverage = 11/11 = 100%
+
 # 3 A detailed description of the testing strategy for the new unit test
 
-Text…
 
 # 4 A high level description of five selected test cases you have designed using coverage information, and how they have increased code coverage
 
-Text…
+
 
 # 5 A detailed report of the coverage achieved of each class and method (a screen shot from the code cover results in green and red color would suffice)
 
-Text…
+The first two figures show the coverage stats in Jacoco for the two classes before writing tests using white box testing:
+
+Data Utilities Class
+![DataUtilities](images/dubef.png)
+
+
+Range Class
+![Calculation4](images/rangebef.png)
+
+
+The following figure shows code coverage stats for each tested class after completing the tests. Unfortunately, our coverage tool(s) do not perform conditional coverage,
+
+DataUtilities Class
+
+![Calculation4](images/db.png)
+
+![Calculation4](images/di.png)
+
+![Calculation4](images/dl.png)
+
+![Calculation4](images/dm.png)
+
+Range Class
+
+![Calculation4](ri/di.png)
+
+![Calculation4](rl/dl.png)
+
+![Calculation4](rm/dm.png)
 
 # 6 Pros and Cons of coverage tools used and Metrics you report
 
@@ -147,9 +181,9 @@ Cons of method/funnctions coverage:
 |     Skill level                 |     Low skilled testers can test   the application with no knowledge of the implementation of programming   language or operating system.               |     Need an expert tester with vast experience   to perform white box testing.                              |
 # 8 A discussion on how the team work/effort was divided and managed
 
-We are four group members in this course. Firstly, we read whole assignment and discussed what should we do to complete this assignment and we all understood about different types of coverage tools. Srujan has created repository in git hub and sent invitation link to others. We shared test cases among us. Every member did one test case from Range class and one from Data Utilities Class.
+We are four group members in this course. Firstly, we read whole assignment and discussed what should we do to complete this assignment and we all understood about different types of coverage tools. Srujan has created repository in git hub and sent invitation link to others. We shared test cases among us. Every member did one test case from Range class and one from Data Utilities Class. We have reviewed each other's work at every stage of the assignment.
 # 9 Any difficulties encountered, challenges overcome, and lessons learned from performing the lab
-We didn’t encounter much trouble in doing testing. Through the lab we learned how to do coverage analysis and unit testing in a structured manner and got to know how the whole process is executed by industry professionals. Setting up the project on Eclipse had caused unexpected delays in the development time due to troubleshooting minor errors related to dependencies.
+We didn’t encounter much trouble in doing coverage analysis. Through the lab we learned how to do coverage analysis and unit testing in a structured manner and got to know how the whole process is executed by industry professionals. Setting up the project on Eclipse had caused unexpected delays in the development time due to troubleshooting minor errors related to dependencies.
 
 # 10 Comments/feedback on the lab itself
 
