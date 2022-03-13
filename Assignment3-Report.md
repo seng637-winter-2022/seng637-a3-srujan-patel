@@ -12,6 +12,9 @@
 (Note that some labs require individual reports while others require one report
 for each group. Please see each lab document for details.)
 
+# Video Link:
+https://drive.google.com/file/d/15Q1xiHN1qyvVPUGxhA1B7EgaAXUoVwJw/view?usp=sharing
+
 # 1 Introduction
 
 White Box Testing:
@@ -82,11 +85,29 @@ DU Coverage = 11/11 = 100%
 
 # 3 A detailed description of the testing strategy for the new unit test
 
+This assignment is about whitebox testing, so naturally, less importance was placed on the blackbox methodology and more placed on actively making the coverage go up. Our testing strategy for assignment 3, is very similar to assignment 2. The main difference is looking at the source code and being able to see the conditions/lines we have missed.
+
+To improve our line coverage we have tried to do two things:
+
+- Add new test cases for previous methods tested in assignment 2.
+- Add test cases for new methods to make them have 100% line coverage (as per the assignment requirements).
 
 # 4 A high level description of five selected test cases you have designed using coverage information, and how they have increased code coverage
 
+We have performed coverage analysis on the following methods:
 
+shiftTest()
+isNaNRangeTest()
+expandToIncludeTest()
+combineIgnoringNaNTest()
+intersectsTest()
+testcalculateRowTotal_2()
+testcalculateColumnTotal_2()
+testcalculateRowTotal_1()
+testcalculateColumnTotal_1()
+getCumulativePercentages()
 
+A detailed description can be inferred from the .java files of the test classes
 # 5 A detailed report of the coverage achieved of each class and method (a screen shot from the code cover results in green and red color would suffice)
 
 The first two figures show the coverage stats in Jacoco for the two classes before writing tests using white box testing:
@@ -121,15 +142,7 @@ Range Class
 
 # 6 Pros and Cons of coverage tools used and Metrics you report
 
-We used IntelliJ for using JaCoCo coverage tool to extract coverage information as shown below. After we set it up, we saw it provides instructions, branch, line, and method coverage. The cons for JaCoCo is that it lacks statement coverage and MC DC coverage. We then switched to Eclipse IDE and used EclEmma plugin for coverage. This tool gives you branch, instructions, line and method coverage. Both tools are similar and lacking condition coverage, so we decided to go ahead with EclEmma because it was the recommended tool.
-
-![JaCoCo Analysis](images/range.png)
-
-Jacoco analysis for the Range class before writing the test suits
-
-![JaCoCo Analysis](images/data.jpeg)
-
-Jacoco analysis for the datautilities class before writing the test suits
+We used IntelliJ for using JaCoCo coverage tool to extract coverage information. After we set it up, we saw it provides instructions, branch, line, and method coverage. The cons for JaCoCo is that it lacks statement coverage and MC DC coverage. We then switched to Eclipse IDE and used EclEmma plugin for coverage. This tool gives you branch, instructions, line and method coverage. Both tools are similar and lacking condition coverage, so we decided to go ahead with EclEmma because it was the recommended tool.
 
 Comparision of different Coverage Metrics:- 
 
