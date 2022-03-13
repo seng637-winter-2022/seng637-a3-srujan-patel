@@ -96,16 +96,16 @@ To improve our line coverage we have tried to do two things:
 
 We have performed coverage analysis on the following methods:
 
-shiftTest()
-isNaNRangeTest()
-expandToIncludeTest()
-combineIgnoringNaNTest()
-intersectsTest()
-testcalculateRowTotal_2()
-testcalculateColumnTotal_2()
-testcalculateRowTotal_1()
-testcalculateColumnTotal_1()
-getCumulativePercentages()
+- shiftTest()
+- isNaNRangeTest()
+- expandToIncludeTest()
+- combineIgnoringNaNTest()
+- intersectsTest()
+- testcalculateRowTotal_2()
+- testcalculateColumnTotal_2()
+- testcalculateRowTotal_1()
+- testcalculateColumnTotal_1()
+- getCumulativePercentages()
 
 A detailed description can be inferred from the .java files of the test classes
 # 5 A detailed report of the coverage achieved of each class and method (a screen shot from the code cover results in green and red color would suffice)
